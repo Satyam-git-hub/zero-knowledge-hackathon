@@ -9,3 +9,7 @@ given below are the steps to create proofs to verify someones age eligibilty
 ### zokrates generate-proof
 ### zokrates export-verifier
 
+## the third directory :
+### This implementation demonstrates the scenenario of password verification when the user wants to convince the other party of their authenticity. But at the same time he cannot reveal his password to the other party, hence zero knowledge comes into play.
+### step1: create a .zok file to generate hash codes for the give password dataset.
+### step2: we can create another .zok file or update this one itself to compare the input from user with the hash codes 
